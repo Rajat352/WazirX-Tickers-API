@@ -17,7 +17,7 @@ export default function DynamicDataComponent() {
   }, []);
 
   return (
-    <div className="container px-5">
+    <div className="container px-5 mx-auto max-w-screen-xl overflow-x-auto">
       {loading ? (
         <div className="text-gray-400 text-4xl ">Loading data...</div>
       ) : (
