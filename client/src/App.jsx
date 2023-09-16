@@ -3,7 +3,7 @@ import MainComponent from "./components/MainComponent";
 
 function App() {
   return (
-    <div className="h-screen bg-bgc font-oswald">
+    <div className="min-h-screen bg-bgc font-oswald">
       <HeaderComponent />
       <MainComponent />
     </div>

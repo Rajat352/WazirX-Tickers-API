@@ -1,7 +1,9 @@
 export default function HeaderComponent() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 justify-between align-middle p-10 h-auto">
-      <div className="text-4xl text-primary font-bold">HODLINFO</div>
+      <div className="text-4xl text-primary font-medium tracking-wider">
+        HODLINFO
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 font-bold">
         <button className="bg-secondary text-white py-1 px-2 rounded-lg">
           INR
